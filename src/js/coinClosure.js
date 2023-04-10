@@ -1,4 +1,8 @@
-// closure
+// closures - two parts to your function:
+//setting up everything the second part needs aka kai's checkout (new user object with the property of our name ready to be used)
+//checkout kake function actually doing the stuff that needs to be done there (kind of lieke a dependency injection in C# and allows you to recall the dependency over and over but in a shortened format)
+
+//biggest takeaway this week is the spread operator is very important, very useful, and wait for state
 
 export function coinClosure(inputAmount){         // 4.99
   const pennies = 0.01;

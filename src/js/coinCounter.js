@@ -1,5 +1,8 @@
+//DON'T LOOK, it's recursion done wrong, this is a regular function
+//if it calls itself inside of itself = recursion
+//with closure you're returning a result you can use later
 export function coinCounter(
-  x, 
+  x, //accidental global variable?
   pennies = 0,
   nickels = 0, 
   dimes = 0,
@@ -21,4 +24,6 @@ export function coinCounter(
     return `Your change in quarters is ${quarters} quarters`;
   }
 }
+
+//DON'T LOOK AT THIS ONE
 
