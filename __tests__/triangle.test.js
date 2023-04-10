@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import Triangle from './../src/js/triangle.js';
 
 describe('Triangle', () => {
